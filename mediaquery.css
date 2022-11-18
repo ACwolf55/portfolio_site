@@ -4,27 +4,24 @@ body {
     flex-direction: column;
     background-color: rgb(37,37,37);
     color:white;
-    font-size: 14px;
+    font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     
     
 }
 
 main {
-    display: flex;
-    flex-direction: row;
     margin-left: 5%;
 }
 
 header{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px -50px 0px;
 }
 
 h1{
-    margin: 0px 0px 0px 0px ;
+    margin: 80px 0px 0px 40px ;
 }
 
 h2{
@@ -32,12 +29,12 @@ h2{
 }
 
 p {
-    margin-left: 20px;
+    margin-left: 300px;
 }
 
 #mepic {
-    height: 180px;
-    width: 200px;
+    height: 280px;
+    width: 300px;
     border-radius:50%;
 
 }
@@ -122,7 +119,7 @@ li{
 
 aside {
     background-color: rgb(29, 29, 29);
-    margin: 100px 0px 100px 100px;
+    margin: 100px 0px -200px -200px;
     height: 75vh;
     padding-top: 2.5%;
     font-size: 20px;
